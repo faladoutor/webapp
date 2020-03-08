@@ -15,37 +15,37 @@ class LoginPage extends Component {
         </View>
         <View style={styles.formLogin}>
           <Input
-            placeholder="Login"
+            placeholder="CPF"
             containerStyle={styles.containerStyle}
             inputStyle={styles.inputStyle}
             underlineColorAndroid="transparent"
             inputContainerStyle={styles.inputContainerStyle}
           />
           <Input
-            placeholder="Password"
+            placeholder="Senha"
             containerStyle={styles.containerStyle}
             inputStyle={styles.inputStyle}
             underlineColorAndroid="transparent"
             inputContainerStyle={styles.inputContainerStyle}
           />
           <View style={{width: '85%'}}>
-            <Text style={styles.forgotStyle}> Forgot password?</Text>
+            <Text style={styles.forgotStyle}> Esqueceu sua senha?</Text>
           </View>
         </View>
         <View style={styles.buttonContainer}>
           <Button
             onPress={() => alert('Clickou em sign up')}
-            title="SIGN UP"
+            title="CADASTRAR"
             buttonStyle={styles.btnStyle}
           />
           <Button
             onPress={() => Actions.main()}
-            title="SIGN IN"
+            title="ENTRAR"
             buttonStyle={styles.btnStyle}
           />
         </View>
         <View style={styles.socialMediaContainer}>
-          <Text style={styles.labelStyle}> Signin via Social Media</Text>
+          <Text style={styles.labelStyle}> Entrar com redes sociais </Text>
         </View>
       </View>
     );
